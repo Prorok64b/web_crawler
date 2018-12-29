@@ -1,0 +1,12 @@
+[package]
+name = "web_crawler"
+version = "0.1.0"
+authors = ["Prorok64b <snitep@yandex.ru>"]
+
+[dependencies]
+reqwest = "0.9.5"
+scraper = "0.9.0"
+cdrs = "0.4.0"
+url = "1.7.2"
+yaml-rust = "0.4"
+select = { path = "./lib-select" }
